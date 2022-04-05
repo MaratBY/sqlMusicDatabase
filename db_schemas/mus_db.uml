@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.albums</OriginalElement>
+  <nodes>
+    <node x="505.8985383161171" y="254.63891867028678">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.genres</node>
+    <node x="-293.7206108862888" y="199.45797824368003">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.albums</node>
+    <node x="-352.5353790430589" y="-276.33675118305655">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.music_collections</node>
+    <node x="236.90553907009098" y="-130.64961087359015">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.musicians</node>
+    <node x="-122.0" y="-118.0">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.songs</node>
+    <node x="437.63200686253526" y="-405.3204191659698">9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.countries</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.musicians" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.countries" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.songs" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.albums" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.songs" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.musicians" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.musicians" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.genres" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.music_collections" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.songs" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.albums" target="9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.musicians" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="-152.82141095869196" y="207.13318020557938" />
+      <point x="-152.82141095869196" y="207.13318020557938" />
+      <point x="-100.65240974004905" y="155.7516241703955" />
+      <point x="-100.65240974004905" y="155.7516241703955" />
+      <point x="-44.21360723036014" y="110.31331013812841" />
+      <point x="-44.21360723036014" y="110.31331013812841" />
+      <point x="-14.393030491373409" y="89.82286887308865" />
+      <point x="-14.393030491373409" y="89.82286887308865" />
+      <point x="21.746780973156895" y="67.7952534467417" />
+      <point x="21.746780973156895" y="67.7952534467417" />
+      <point x="87.08100283919168" y="34.73869358721791" />
+      <point x="87.08100283919168" y="34.73869358721791" />
+      <point x="121.34928925635135" y="20.439129408549817" />
+      <point x="121.34928925635135" y="20.439129408549817" />
+      <point x="162.67809534541675" y="5.634203916303129" />
+      <point x="162.67809534541675" y="5.634203916303129" />
+      <point x="236.90773656779746" y="-15.040601770477315" />
+      <point x="236.90773656779746" y="-15.040601770477315" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Edge Bundled Radial" zoom="1.0" showDependencies="false" x="151.0" y="-37.50000000000006" />
+  <SelectedNodes>
+    <node>9a8e2e03-5841-4a13-ba08-1e12c031a6d6.TABLE:mus_db.public.songs</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
