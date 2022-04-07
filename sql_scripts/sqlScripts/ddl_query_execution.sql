@@ -1,4 +1,3 @@
-create_tables = """
 -- Table that stores the countries data (used in musicians table)
 CREATE TABLE IF NOT EXISTS countries(
     id SERIAL NOT NULL PRIMARY KEY ,
@@ -39,7 +38,7 @@ CREATE TABLE IF NOT EXISTS songs(
     album_id INTEGER REFERENCES albums(id),
     song_title VARCHAR(50) NOT NULL ,
     duration_sec BIGINT NOT NULL,
-    constraint pk PRIMARY KEY (musician_id, album_id)
+    constraint pk PRIMARY KEY (id, musician_id)
 );
 
 -- Musical Collections
@@ -49,5 +48,3 @@ CREATE TABLE IF NOT EXISTS music_collections(
     release_date DATE NOT NULL ,
     song_id INTEGER REFERENCES songs(id)
 );
-
-"""
